@@ -1,23 +1,28 @@
 {
   "Product": {
 		"_": {
-		  "items": 50,
-		  "data": [
-			{
-				"name": "Trek SSL 2017",
-				"price": 999.9,
-				"description": { "loremSentences": { "minLength": 15, "maxLength": 50 } },
-				"discontinued": { "boolean": {} },
-				"fixedPrice": { "boolean": {} },
-				"imageUrl": "",
-				"modifiedDate": {
-				  "dateTime": {
-					"min": "2021-01-01T00:00:00Z",
-					"max": "2023-01-31T23:59:59Z"
-				  }
-				}
+			"items": 50
+		},
+		"data": [
+		{
+			"name": "Trek SSL 2017",
+			"price": {
+			  "int": {
+				"min": 5,
+				"max": 100000
+			  }
+			},
+			"description": { "loremSentences": { "minLength": 15, "maxLength": 50 } },
+			"discontinued": { "boolean": {} },
+			"fixedPrice": { "boolean": {} },
+			"imageUrl": "",
+			"modifiedDate": {
+			  "dateTime": {
+				"min": "2021-01-01T00:00:00Z",
+				"max": "2023-01-31T23:59:59Z"
+			  }
 			}
-		  ]
 		}
+	  ]
 	}
 }
