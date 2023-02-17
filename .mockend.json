@@ -1,5 +1,10 @@
 {
-
+  "Admin": {
+		"_": {
+		  "items": 1
+		},
+	"profile": { "loremSentences": { "minLength": 15, "maxLength": 50 } }
+  },
   "Product": {
 		"_": {
 			"items": 50
