@@ -1,22 +1,24 @@
 {
   "Product": {
-    "_": {
-      "items": 50,
-      "data": [
-        {
-    "id": 1,
-    "name": "Trek SSL 2017",
-    "price": 999.9,
-    "description": { "loremSentences": { "minLength": 15, "maxLength": 50 } },
-    "discontinued": { "boolean": {} },
-    "fixedPrice": { "boolean": {} },
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/angularstore-29f4b.appspot.com/o/products%2Ftrek.jpg?alt=media&token=42e1650e-7ff9-467f-bde7-0423786c94fd",
-    "modifiedDate": {
-      "dateTime": {
-        "min": "2021-01-01T00:00:00Z",
-        "max": "2023-01-31T23:59:59Z"
-      }
-    }
-        }
-      ]
-    },
+		"_": {
+		  "items": 50,
+		  "data": [
+			{
+				"id": 1,
+				"name": "Trek SSL 2017",
+				"price": 999.9,
+				"description": { "loremSentences": { "minLength": 15, "maxLength": 50 } },
+				"discontinued": { "boolean": {} },
+				"fixedPrice": { "boolean": {} },
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/angularstore-29f4b.appspot.com/o/products%2Ftrek.jpg?alt=media&token=42e1650e-7ff9-467f-bde7-0423786c94fd",
+				"modifiedDate": {
+				  "dateTime": {
+					"min": "2021-01-01T00:00:00Z",
+					"max": "2023-01-31T23:59:59Z"
+				  }
+				}
+			}
+		  ]
+		}
+	}
+}
