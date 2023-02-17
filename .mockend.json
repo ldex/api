@@ -1,16 +1,9 @@
-const randomNames = []
- 
-for (let i = 0; i < 100; i++) {
-  randomNames.push(fake.commerce.productName())
-})
 
-JSON.stringify(
-{
   "Product": {
 		"_": {
 			"items": 50
 		},
-			"name": { "string": randomNames },
+			"name": { "string": "email" },
 			"price": {
 			  "int": {
 				"min": 5,
@@ -30,5 +23,5 @@ JSON.stringify(
 			  }
 			}
 	}
-}
-})
+
+
