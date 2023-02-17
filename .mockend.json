@@ -30,4 +30,5 @@ JSON.stringify(
 			  }
 			}
 	}
+}
 })
