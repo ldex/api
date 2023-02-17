@@ -1,9 +1,16 @@
+const randomNames = []
+ 
+for (let i = 0; i < 100; i++) {
+  randomNames.push(fake.commerce.productName())
+})
+
+JSON.stringify(
 {
   "Product": {
 		"_": {
 			"items": 50
 		},
-			"name": { "string": {faker.commerce.productName()} },
+			"name": { "string": randomNames },
 			"price": {
 			  "int": {
 				"min": 5,
@@ -14,13 +21,13 @@
 			"discontinued": { "boolean": {} },
 			"fixedPrice": { "boolean": {} },
 			"imageUrl": {
-    "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
-  },
+				"regexp": "https://picsum\\.photos/seed/[0-9]{5}/250/150"
+			  },
 			"modifiedDate": {
 			  "dateTime": {
-				"min": "2021-01-01T00:00:00Z",
+				"min": "2022-01-01T00:00:00Z",
 				"max": "2023-01-31T23:59:59Z"
 			  }
 			}
 	}
-}
+})
