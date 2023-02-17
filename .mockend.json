@@ -3,7 +3,7 @@
 		"_": {
 			"items": 50
 		},
-			"name": "Trek SSL 2017",
+			"name": { "string": {} },
 			"price": {
 			  "int": {
 				"min": 5,
@@ -13,7 +13,9 @@
 			"description": { "loremSentences": { "minLength": 15, "maxLength": 50 } },
 			"discontinued": { "boolean": {} },
 			"fixedPrice": { "boolean": {} },
-			"imageUrl": "",
+			"imageUrl": {
+    "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+  },
 			"modifiedDate": {
 			  "dateTime": {
 				"min": "2021-01-01T00:00:00Z",
