@@ -3,7 +3,9 @@
 		"_": {
 			"items": 50
 		},
-			"name": { "email": {} },
+			"name": {
+            "text": [100]
+        },
 			"price": {
 			  "int": {
 				"min": 5,
