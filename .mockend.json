@@ -3,7 +3,7 @@
 		"_": {
 			"items": 50
 		},
-			"name": { "string": faker.commerce.productName() },
+			"name": { "string": {faker.commerce.productName()} },
 			"price": {
 			  "int": {
 				"min": 5,
